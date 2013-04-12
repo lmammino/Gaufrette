@@ -46,7 +46,7 @@ class OpenCloud implements Adapter,
         $this->detectContentType = $detectContentType;
     }
 
-    private function initialize()
+    protected function initialize()
     {
         if (!$this->container instanceof Container) {
 
